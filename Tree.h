@@ -16,15 +16,16 @@ private:
         Node* _right;
         string _letter;
         size_t _frequency;
-        Node(string letter, size_t frequency);
-
+        Node(string letter, size_t frequency, Node* left=nullptr, Node* right=nullptr);
         size_t GetFrequency() const;
+        string GetLetter() const;
 
     };
     Node* _root;
 public:
     Tree(Table table);
     ~Tree();
+    void ToString(ostream &output) const;
 };
 
 

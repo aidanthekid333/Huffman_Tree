@@ -20,6 +20,7 @@ public:
     void insert(const Letter& letter);
     void Sort();
     void ToString(ostream &output) const;
+    vector<Letter>* GetElements();
 };
 
 

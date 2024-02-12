@@ -38,3 +38,7 @@ void Table::ToString(ostream &output) const {
         output << letter.ToString();
     }
 }
+
+vector<Letter> *Table::GetElements() {
+    return &_table;
+}

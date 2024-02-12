@@ -4,6 +4,7 @@
 
 #include "Letter.h"
 #include "Table.h"
+#include "Tree.h"
 
 #include <iostream>
 #include <fstream>
@@ -25,6 +26,8 @@ int main(int argc, char* argv[]){
         Table table = Table(inFile);
 
         table.ToString(cout);
+
+        Tree tree = Tree(table);
 
 
     }
