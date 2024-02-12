@@ -25,6 +25,8 @@ int main(int argc, char* argv[]){
         Table table = Table(inFile);
 
         table.ToString(cout);
+
+
     }
 
 

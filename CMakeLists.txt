@@ -10,4 +10,6 @@ add_executable(Huffman_Tree
         Letter.h
         main.cpp
         Table.cpp
-        Table.h)
+        Table.h
+        Tree.cpp
+        Tree.h)
